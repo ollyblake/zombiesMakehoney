@@ -1,0 +1,85 @@
+body, p, h1, h3, table, form {
+	font-family: courier, helvetica, sans-serif;
+	font: courier;
+}
+
+h2 {
+	text-align: center;
+	font-family: Lucida, Times;
+	font-style: italic;
+}
+
+hr {
+	background-color:#eee;
+	border:#888 1px dotted;
+	border-style: none none dashed;
+	color:#888;
+}
+
+td.memberpostinfo {
+    width: 280px;
+	border-bottom: 1px solid #888;
+    padding-top: 5px;
+}
+td.memberpostimage {
+    width: 500px;
+    border-bottom: 1px solid #888;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+button {
+    
+    }
+    
+textarea {
+    max-width: 100px; 
+    max-height: 100px;
+    }
+
+/* classes */
+.box {
+	width: 800px;
+	border:1px dashed #888;
+	padding: 15px;
+	background: white;
+}
+
+.form {
+    width: 800px;
+	padding: 15px;
+}
+
+td .form {
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.error {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.discription {
+  padding:5px;
+  border:1px solid #ccc;
+}
+
+.memberpostinfo {
+  vertical-align: top;
+  padding-right:15px;
+}
+
+
+
+/* ids */
+
+#wrap {
+	width: 832px;
+	margin:0px auto;
+	padding:15px;
+	border:1px dashed #888;
+	background-color:#eee;
+}
